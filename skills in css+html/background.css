@@ -1,0 +1,23 @@
+body{
+background: linear-gradient(skyblue,lightgreen);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.orl{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper{
+   
+    border-radius: 30px;
+    height:100px;
+   width:100px;
+   margin-top: auto;
+   margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+   background-color: blueviolet;
+}

@@ -1,0 +1,50 @@
+header{
+    animation: myHeader;
+    animation-duration:5s;
+    animation-delay:1s;
+    animation-timing-function: ease;
+
+        background: linear-gradient(rgb(171, 255, 75),rgb(0, 255, 251)); 
+          background-repeat: no-repeat;
+       position:sticky;
+       top:0px;
+   }
+   
+   @keyframes myHeader{
+       from{margin-left: 100%;}
+       to{margin-left: 0%}
+   }
+   u{
+   text-decoration-color: blueviolet;
+   
+   }
+   a:hover{
+    color:blueviolet;
+    text-decoration: underline;
+   }
+   a:visited{
+    color:purple;
+   }
+footer{
+animation: myFooter;
+animation-duration:5s;
+animation-delay:1s;
+animation-timing-function: ease;
+
+
+
+    position:sticky;
+    bottom:0px;
+    background: linear-gradient(rgb(124, 253, 255),rgb(183, 255, 67) );
+}
+@keyframes myFooter{
+    from{margin-right:100%;}
+    to{margin-left:0%}
+}
+#logo{
+    position:relative;
+    float:left;
+   transform: translateY(10%);
+   
+}
+
